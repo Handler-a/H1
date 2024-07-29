@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09</title>
+    <link rel="shortcut icon" href="favicoan.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>adicionando hyperlinks externos:</h1>
+    <hr>
+    <h2>hyperlinks sobrepondo a página</h2>
+    <p>hyperlink para o <a href="https://www.youtube.com/">youtube </a></p>
+    <p>utilizando a tag (a) no modo padrão dela, sobrepondo a aba em questão </p>
+    <p>podendo usar o (rel=) para definir o que o navegador vê sendo eles:<ul>
+        <li>(rel="_next") próxima página</li>
+        <li>(rel="_prev") página anterior</li>
+        <li>(rel="_author") link para o site do autor </li>
+        <li>(rel="_external") link externo de algo que não faz parte da página</li>
+        <li>(rel="_nofollow") link para algo que não faz parte da página, mas que pagou para ali estar, um site não endossado</li>
+    </ul></p>
+
+    <p>Podemos usar o (target=) para controlar o destino de links ancorados<ul>
+        <li>(target="_blank") abre em uma janela em braco</li>
+        <li>(target="_self") abre sobrepondo a janela atual</li>
+        <li>(target="_top") desfaz todos os frames e abre uma janela no navegador completo </li>
+        <li>(target="_parent") similar ao (_top) mas referencia a janela mãe</li>
+        
+
+    </ul></p>
+
+    <h2>hyperlink abrindo outra aba</h2>
+    <p>hyperlink para o <a href="https://www.youtube.com " target="_blank">youtube</a></p>
+    <p>utilizando a (target=_blank) dentro da tag (a) para abrir em uma aba em branco</p>
+
+    <h2>Chamando outras páginas</h2>
+    <p>Essa é a primeira página, para ir para a próxima página <a href="index2.html" rel="next">clique aqui</a></p>
+    <h3>chamando outra página dentro de diretórios</h3>
+    <p><a href="aaaaa/index3.html" rel="next">página dentro de diretório</a></p>
+    <h1>Links para download</h1>
+        <ul>
+            <li><a href="aaaaa/down1.zip" download="down1.zip" type="application/zip">download1</a></li>
+        </ul>
+</body>
+</html>

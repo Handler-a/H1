@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11</title>
+    <link rel="shortcut icon" href="favicoan.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagens dinâmicas:</h1>
+    <p>aumente e diminua o tamanho da janela</p>
+    <p>as tags (source:m) tem que seguir a ordem do menor para o maior para funcionar corretamente</p>
+    <br>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/pequena.png">
+        <source media="(max-width: 1050px )" srcset="imagens/media.png">
+        <img src="imagens/grande.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo audios:</h1>
+    <hr>
+    <audio src="audios/audio1.mp3" controls type="audio/mpeg"></audio>
+
+    <audio preload="metadata" controls>
+        <source src="audios/audio2.mp3" type="audio/mpeg">
+        <p>caso o navegar não tenha suporte ao audio <a href="audios/audio2.mp3">baixe-o aqui</a></p>
+    </audio>
+
+
+</body>
+</html>

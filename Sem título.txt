@@ -1,0 +1,72 @@
+https://gustavoguanabara.github.io/
+https://emojipedia.org/
+//////////////////////////////////////////////////
+imagens sem cc:
+https://unsplash.com/pt-br 
+https://br.freepik.com/
+/////////////////////////////////////////////////
+ícones:
+https://www.iconarchive.com/ - baixar
+https://www.favicon.cc/ - criar
+https://favicon.io/ - converter
+/////////////////////////////////////////////////
+
+
+HTML foca em conteúdo 
+CSS estilo
+JS interatividade 
+
+<br> break - quebra de linha 
+<h1> cabeçalho - a hierarquia de titulo pode chegar a 6 níveis de h1 até h6.
+<p> paragrafo 
+
+emojis e símbolos utilizam codificação UTF-8
+emojis usam "&#x0000;" 
+símbolos usam "&'nome do símbolo'" 
+
+ícones na aba do navegador utiliza-se "link:favicon"
+
+utilização de mais de um link para css 
+evitar css inline 
+css interno só para estilos curtos
+css externo uso sem moderação (Link)
+
+medidas absolutas (cm, mm, in, pt, px, pc) e relativas (em, ex, rem, vh, vw, %)
+px e em são recomendadas pelo w3c
+
+fonts externas usando o google fonts
+
+        
+   # = id
+   . = class
+   > = children
+   : = pseudo-class
+   :: = pseudo-element
+
+inline-level:
+<span>
+<a>
+<code>
+<small>
+<strong>
+<em>
+<sup> - <sub>
+<label>
+<input>
+<button>
+<select>
+
+Box-level:
+<div>
+<h1> - <h6>
+<p>
+<main>
+<header>
+<nav>
+<article>
+<aside>
+<footer>
+<form>
+<video>
+
+useragent = navegador
