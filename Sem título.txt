@@ -70,3 +70,7 @@ Box-level:
 <video>
 
 useragent = navegador
+
+
+RegEX - Regular Expression
+envio de arquivos apenas com método post
