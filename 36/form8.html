@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php">
+        <p>
+            <label for="n1">numero1</label>
+            <input type="number" name="n1" id="n1" min="0" max="50" required oninput="isom.innerHTML = Number(n1.value) + Number(n2.value) + Number(n3.value)">
+        </p>
+        <p>
+            <label for="n2">numero1</label>
+            <input type="number" name="n2" id="n2" min="0" max="50" required oninput="isom.innerHTML = Number(n1.value) + Number(n2.value) + Number(n3.value)">
+        </p>
+        <p>
+            <label for="n3">numero1</label>
+            <input type="number" name="n3" id="n3" min="0" max="50" required oninput="isom.innerHTML = Number(n1.value) + Number(n2.value) + Number(n3.value)">
+        </p>
+        <p>
+            <label for="isom">Soma</label>
+            <output name="som" id="isom">0</output>
+        </p>
+
+        <p>
+            <label for="ira">range</label>
+            <input type="range" name="rag" id="ira" min="1" max="10" value="5"
+            oninput="outrang.innerHTML = Number(ira.value)">
+            <output id="outrang">5</output>
+        </p>
+
+
+        <p>
+            <label for="iano">ano</label>
+            <input type="number" name="an" id="iano" min="1940" max="2025"
+            oninput="calcidade()">
+        </p>
+        <p>
+            <label for="idade">idade:</label>
+            <output id="idade">0</output>
+        </p>
+
+
+        <p>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </p>
+    </form>
+    <script>
+        function calcidade(){
+            let atual = new Date().getFullYear()
+            idade.innerHTML = Number(atual) - Number(iano.value)
+        }
+    </script>
+</body>
+</html>
