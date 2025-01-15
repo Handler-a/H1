@@ -74,3 +74,6 @@ useragent = navegador
 
 RegEX - Regular Expression
 envio de arquivos apenas com método post
+
+medias types   e       media features
+media="screen and (orientation: landscape)"
